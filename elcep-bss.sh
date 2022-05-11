@@ -1,6 +1,6 @@
 #!/bin/bash
 
-fhome=/usr/share/elcepbss/
+fhome=/usr/share/elcep-bss/
 date1=`date '+%Y.%m.%d'`
 cd $fhome
 nbss=$(sed -n "16p" $fhome"settings.conf" | tr -d '\r')

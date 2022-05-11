@@ -1,6 +1,6 @@
 #!/bin/bash
 
-fhome=/usr/share/elcepbss/
+fhome=/usr/share/elcep-bss/
 sec4=$(sed -n "4p" $fhome"settings.conf" | tr -d '\r')
 
 
